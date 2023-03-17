@@ -11,11 +11,11 @@ export function StudentsIndex(props) {
           <h3>Phone: {student.phone_number}</h3>
           <h3>Bio:</h3>
           <p>{student.short_bio}</p>
-          <h2>LinkedIn: {student.linked_url}</h2>
+          <h2>LinkedIn: {student.linkedin_url}</h2>
           <h2>Twitter: {student.twitter_handle}</h2>
           <h2>Website: {student.website_url}</h2>
-          <h2>Resume: {student.online_resume_url}</h2>
-          <h2>GitHub: {student.github}</h2>
+          <h2>Resume: {student.online_resume}</h2>
+          <h2>GitHub: {student.github_url}</h2>
           <img src={student.photo} />
         </div>
       ))}
